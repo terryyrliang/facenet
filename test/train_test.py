@@ -168,8 +168,8 @@ class TrainTest(unittest.TestCase):
         argv = ['python',
                 'src/compare.py',
                 os.path.join('data/', self.pretrained_model_name),
-                'data/images/Anthony_Hopkins_0001.jpg',
-                'data/images/Anthony_Hopkins_0002.jpg' ]
+                'data/Anthony_Hopkins_0001.jpg',
+                'data/Anthony_Hopkins_0002.jpg' ]
         subprocess.call(argv)
          
     def test_validate_on_lfw(self):
